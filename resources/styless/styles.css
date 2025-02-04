@@ -1,0 +1,56 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  
+    background-color: #FBF5DD;  
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;    
+    align-items: center;    
+    justify-content: center;
+    
+}
+
+#container {
+    width: 550px;
+    max-height: 400px;
+    padding: 35px;
+    background-color: #16404D;
+    color: #A6CDC6;
+    text-align: center;   
+}
+
+#options {   
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #DDA853;
+    color: #FBF5DD;
+    text-align: center;
+}
+
+#cantidad{   
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #DDA853;
+    color: #FBF5DD;
+    text-align: center;    
+}
+#cantidad::placeholder {
+    color: #FBF5DD;
+}
+
+p {
+    color: white;
+}
+
+
